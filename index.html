@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<style>
+    *
+    {
+        margin: 0;
+        padding: 0;
+
+        box-sizing: border-box;
+    }
+   body
+   {
+    background-color: darkslateblue;
+   }
+   .container
+   {
+    display: flex;
+    justify-content: center;
+   }
+   .two
+   {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+   }
+   .three
+   {
+    width: 500px;
+    height: 600px;
+    background-color: rgb(224, 228, 231);
+    margin-top: 25px;
+   }
+   .four
+   {
+    background-color: rgb(206, 203, 203);
+    border: none rgb(53, 52, 52);
+    margin:10px;
+    height:40px ;
+    padding-left:10px;
+    margin-left: 40PX;
+   }
+   #email
+   {
+    width: 413PX;
+
+   }
+   #pass
+   {
+    width: 413px;
+   }
+   .five
+   {
+    margin-left: 40px;
+   }
+   #pre
+   {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+   }
+   span{
+    color: rgb(101, 91, 167);
+   }
+   .six
+   {
+    margin-left: 40px;
+    width:140px;
+    height: 40px;
+    background-color: rgb(135, 120, 231);
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px;
+
+   }
+  
+</style>
+<body>
+    <div class="container">
+    <div class="three">
+        <h1 class="two">Sign Up</h1>
+        <p class="two">Please fill in this form to create an account </p>
+        <hr>
+        <br>
+        <form>
+            <input type="text" name="first name" id="first" placeholder="First name" class="four">
+            <input type="text" name="Last name" id="Last" placeholder="Last name" class="four">
+            <br><br>
+            <input type="email" name="email"placeholder="Email" class="four" id="email">
+            <br><br>
+            <input type="password" name="pass"placeholder="password" class="four" id="pass">
+            <br><br>
+            <input type="password" name="pass"placeholder="Confirm password" class="four" id="pass">
+            <br><br><br>
+           <pre id="pre"><input type="checkbox" class="five">  I accept the <span>Term of use</span> & <span>Privacy policy</span></pre>
+           <br><br>
+           <input type="submit"value="Sign Up" class="six">
+
+            
+        </form>
+    </div>
+</div>
+    
+</body>
+</html>
